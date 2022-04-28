@@ -94,6 +94,14 @@ gap: 2rem;
     display: flex;
     justify-content: center;
     align-items: center;
+
+}
+
+.grid__hijo img:hover{
+    transform: scale(1.3);
+    transition: transform 0.3s ease;
+    overflow: hidden;
+
 }
 
 .grid__hijo--1{
