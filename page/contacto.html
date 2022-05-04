@@ -6,67 +6,48 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <!-- <link rel="stylesheet" href="./css/contacto.css"> -->
     <script src="./js/bootstrap.bundle.min.js"></script>
 </head>
 <body>
     <header class="header">
-        <section class="header__nombre">
-            <h5 style="color: whitesmoke;">Macetas Böhö</h2>
-        </section>
-        <nav class="header__menu">
-            <ul>
-                <li>
-                    <a href="../index.html">INICIO</a>
-                </li>
-                <li>
-                    <a href="Catalogo.html">CATÁLOGO</a>
-                </li>
-                <li>
-                    <a href="informacion.html">INFORMACIÓN</a>
-                </li>
-                <li>
-                    <a href="contacto.html">CONTACTO</a>
-                </li>
-                <li>
-                    <a href="preguntasfrecuentes.html">FAQQ</a>
-                </li>
-            </ul>
-           
-         </nav>
+        <img src="imagenes/Logo_final (2).jpg" alt="logo" class="header__logo" >
+        <!-- <i class="header__icono fa-solid fa-align-justify"></i> -->
+            <nav class="navmenu">
+                <ul class="navmenu__lista">
+                    <li class="navmenu__item">
+                        <a class="navmenu__enlace" href="../index.html" class="flex__menu">INICIO</a>
+                    </li>
+                    <li class="navmenu__item">
+                        <a class="navmenu__enlace" href="catalogo.html" class="flex__menu">CATÁLOGO</a>
+                    </li>
+                    <li class="navmenu__item">
+                        <a class="navmenu__enlace" href="informacion.html" class="flex__menu">INFORMACIÓN</a>
+                    </li>
+                    <li class="navmenu__item">
+                        <a class="navmenu__enlace" href="contacto.html" class="flex__menu">CONTACTO</a>
+                    </li>
+                    <li class="navmenu__item">
+                        <a class="navmenu__enlace" href="preguntasfrecuentes.html" class="flex__menu">FAQQ</a>
+                    </li>
+                </ul>
+               
+              
+            </nav>
+        
+    </header>
+    
+    <main>
+        <section>
 
             <form action="">
-
-                <div>
-                    <label for="Nombre">Nombre:</label>
-                    <input required type="text" id="Nombre" name="nombre" placeholder="Ingrese su nombre..">
-                </div>
+               <input type="text" placeholder="Nombre" class="form-control">
+               <input type="email" placeholder="Email" class="form-control">
+                <textarea  rows="10" placeholder="Mensaje" class="form-control"></textarea>
                 
-                <div>
-                    <label for="Edad">Edad:</label>
-                    <input required type="number" id="Edad" name="edad" placeholder="Ingrese su edad...">
-                </div>
-        
-                <div>
-                    <label for="email">Correo electrónico:</label>
-                    <input required type="text" id="email" name="email" placeholder="Ingrese su correo electrónico...">
-               </div>
-        
-                <div>
-                    <label for="comentario">Comentarios:</label>
-                    <textarea name="comentario" id="comentario" cols="70" rows="10"></textarea>
-                </div>
-        
-                <div>
-                    <button>Enviar</button>
-                    <input type="reset" value="limpiar">
-                </div>
-        
-                 
-            </form>
-        <section>
-            <img src="../imagenes/thinegra.jpg" alt="thinegra" width="300px" height="300px">
         </section>
-        
+    </main>
+            
     <footer>
             <section class="header__nombre">
                 <h5 style="color: whitesmoke;">Macetas Böhö</h5>
